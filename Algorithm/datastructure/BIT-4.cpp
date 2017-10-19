@@ -1,4 +1,4 @@
-//BIT+差分 --> 区间修改+区间查询
+//BIT+宸垎 --> 鍖洪棿淇敼+鍖洪棿鏌ヨ
 /*
 a[]->past,add[i]->[i,n] all added;
 sum[i]=a[1]+L+a[i]+add[1]*i+add[2]*(i-1)+L+add[i]*1
