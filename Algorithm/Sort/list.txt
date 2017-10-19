@@ -1,0 +1,67 @@
+ÅÅÐò
+
+ÅÅÐòÒ» Ã°ÅÝÅÅÐò
+
+ÅÅÐò¶þ ¿ìËÙÅÅÐò
+
+ÅÅÐòÈý Ö±½Ó²åÈëÅÅÐò
+
+ÅÅÐòËÄ Ï£¶ûÅÅÐò
+
+ÅÅÐòÎå ¼òµ¥Ñ¡ÔñÅÅÐò
+
+ÅÅÐòÁù ¶ÑÅÅÐò
+
+ÅÅÐòÆß ¹é²¢ÅÅÐò
+
+ÅÅÐò°Ë »ùÊýÅÅÐò
+
+/*typedef struct node
+typedef node *tree
+struct node
+{
+	int data;
+	tree father;
+	tree lson,rson;
+};
+int main()
+{
+	int n;
+	return 0;
+}
+void preorder(tree bt)
+{
+	if(bt)
+	{
+		printf("%d",bt->data);
+		preorder(bt->lson);
+		preorder(bt->rson);
+	}
+}
+void inorder(tree bt)
+{
+	if(bt)
+	{
+		inorder(bt->lson)
+		printf("%d",bt->data);
+		inorder(bt->rson);
+	}
+}
+void postorder(tree bt)
+{
+	if(bt)
+	{
+		postorder(bt->lson);
+		postorder(bt->rson);
+		printf("%d",bt->data);
+	}
+}
+void insert(node &bt)
+{
+	char str;
+	str=getchar();
+	if(str!=0)
+	{
+		bt->
+	}
+}*/
