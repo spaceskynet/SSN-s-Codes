@@ -1,3 +1,4 @@
+//spaceskynet http://paste.ubuntu.com/25778438/
 #include<iostream>
 #include<cstdio>
 #include<cstring>
