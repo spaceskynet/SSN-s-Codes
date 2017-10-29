@@ -14,18 +14,18 @@ int main()
 		if(d<a[u][v]) a[u][v]=d,a[v][u]=d;///因为有重边，所以读入时选择最小的边
 	}
 	memset(dis,25025048,sizeof(dis));
-	memset(f,1,sizeof(f));
+	memset(f,0,sizeof(f));
 	f[0]=0;
 	dis[1]=0;
 	for(int i=1;i<=n;i++)
 	{
 		int k=0,x=0;
 		for(int j=1;j<=n;j++)
-			if(f[j]==1&&(dis[j]<dis[k])) k=j; ///找出最小的蓝点
-		f[k]=0;
+			if(f[j]==0&&(dis[j]<dis[k])) k=j; ///找出最小的蓝点
+		f[k]=1;
 		for(int j=1;j<=n;j++)
 		{
-			if(f[j]==1&&(a[k][j]<dis[j])) dis[j]=a[k][j],x=j;
+			if(f[j]==0&&(a[k][j]<dis[j])) dis[j]=a[k][j],x=j;
 		}
 	}
 	int s=0;

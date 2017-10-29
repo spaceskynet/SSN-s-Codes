@@ -2,7 +2,7 @@
 #include<cstdio>
 using namespace std;
 typedef double db;
-const int maxn=1e5,INF=2147483647;
+const int maxn=1e5,INF=~0U>>1;
 struct Node
 {
 	db weight;
